@@ -42,6 +42,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Use the system clipboard, needs +clipboard in vi m --version
+set clipboard=unnamed
+
 " go to tab using control
 
 nnoremap <C-Left> :tabprevious<CR>
